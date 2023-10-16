@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -25,6 +26,11 @@ nav .search{
     padding-right: 115px;
 }
 
+main{
+    padding: 20px;
+    overflow: auto;  
+}
+
 main .pertanyaan{
     background-color: white;
     box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
@@ -38,32 +44,33 @@ main .pertanyaan{
 main .jawaban{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-inline: 350px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-inline: 50px;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px; 
     padding: 20px;
     text-align: justify;
+    float: left;
+    width: 60%;
 }
 
 main .box-pertanyaan{
     background-color: white;
     box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
-    margin-inline: 350px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-inline: 50px;
     padding: 20px;
     text-align: justify;
     list-style: inside  ;
+    float: left;
+    width: 60%;
 }
 
 main aside{
     background-color: white;
     box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
-    margin-inline: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
+    padding: 20px; 
     text-align: justify;
+    float: right;
+    width: 30%;
 }
 
 footer{
