@@ -66,6 +66,13 @@ main aside{
     text-align: justify;
 }
 
+footer{
+    background-color: #ed2828;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 main img{
     width: 50px;
     border-radius: 50%;
