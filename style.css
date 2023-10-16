@@ -25,13 +25,35 @@ nav .search{
     padding-right: 115px;
 }
 
+main .pertanyaan{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-inline: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: justify;
+}
+
 main .jawaban{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-inline: 350px;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     text-align: justify;
+}
+
+main .box-pertanyaan{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-inline: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: justify;
+    list-style: inside  ;
 }
 
 main img{
