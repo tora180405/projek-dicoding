@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -10,98 +11,135 @@
 
     <header>
         <nav>
-            <div class="nama">
-                <h4>forum diskusi</h4>
-            </div>
-            <div class="list">
+            <!-- <img src="image/logo.jpg" alt="" style="width: 100px; border-radius: 50%;"> --> <h4>forum diskusi</h4>
                 <ul>
-                    <li>home</li>
-                    <li>diskusi</li>
-                    <li>friend list</li>
+                    <i class="bi bi-house-fill"></i>
+                    <i class="bi bi-question-lg"></i>
+                    <i class="bi bi-person-lines-fill"></i>
+                    <i class="bi bi-book-fill"></i>
                 </ul>
-            </div>
-            <div class="search">
-                <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
-                <input type="search">
-            </div>
+            <i class="bi bi-search"></i>
+            <input type="search" placeholder="cari">
+            <!-- <img src="image\60111.jpg" alt="" class="profil"> -->
         </nav>
     </header>
 
     <main>
-        <div class="pertanyaan">
-            <h3>APAKAH KUDA BERTELUR?</h3>
-        </div>
-        <div class="jawaban">
-            <div class="name">
-                <img src="image\60111.jpg" alt="">
-                <p style="padding-left: 6px;padding-top: 10px;"><b>Tora Digda K</b></p>
+        <div class="container">
+            <div class="content">
+                <div class="diskusi">
+                    <div class="profil">
+                        <img src="image\60111.jpg" alt="" style="width: 50px; border-radius: 50%;">
+                        <p>
+                            <b style="color: black;">Tora Digda K</b>
+                            <br>
+                            profil user
+                        </p>
+                    </div>
+                    <div class="pembahasan">
+                        <article>
+                            <h3>Artikel</h3>
+                            <img src="image/digitaltech.jpg" alt="" style="width: 100%;">
+                            <hr>
+                            <h3>judul artikel</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum autem modi, 
+                                aspernatur assumenda esse minima tempore, doloribus, ratione pariatur quisquam quos. 
+                                Quia quas fugit aliquid soluta similique laboriosam quod mollitia?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nihil exercitationem 
+                                adipisci doloribus provident, omnis ipsum minus culpa aliquid obcaecati similique fugit 
+                                perspiciatis suscipit. Iusto repellat dolorum libero quam esse reiciendis dignissimos 
+                                nostrum! Aperiam vitae, quo voluptatem voluptate neque eius tempora? Doloremque nemo nobis 
+                                repudiandae illo consequatur reprehenderit. Nesciunt, eum.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="diskusi">
+                    <div class="profil">
+                        <img src="image\60111.jpg" alt="" style="width: 50px; border-radius: 50%;">
+                        <p>
+                            <b style="color: black;">Tora Digda K</b>
+                            <br>
+                            profil user
+                        </p>
+                    </div>
+                    <div class="pembahasan">
+                        <article>
+                            <h3>Mengapa para penganggur tidak belajar pemrograman?</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum autem modi, 
+                                aspernatur assumenda esse minima tempore, doloribus, ratione pariatur quisquam quos. 
+                                Quia quas fugit aliquid soluta similique laboriosam quod mollitia?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum autem modi, 
+                                aspernatur assumenda esse minima tempore, doloribus, ratione pariatur quisquam quos. 
+                                Quia quas fugit aliquid soluta similique laboriosam quod mollitia?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nihil exercitationem 
+                                adipisci doloribus provident, omnis ipsum minus culpa aliquid obcaecati similique fugit 
+                                perspiciatis suscipit. Iusto repellat dolorum libero quam esse reiciendis dignissimos 
+                                nostrum! Aperiam vitae, quo voluptatem voluptate neque eius tempora? Doloremque nemo nobis 
+                                repudiandae illo consequatur reprehenderit. Nesciunt, eum.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="box-pertanyaan">
+                    <h4 style="margin: 0;"><b>pertanyaan yang belum terjawab</b></h4>
+                    <hr>
+                    <p><b>Apa perbedaan antara SBUJPTL dengan lisensi atau izin lain yang terkait dengan penyelenggaraan tenaga listrik?</b></p>
+                    <button><i class="bi bi-pencil"></i> jawab</button>
+                </div>
+                <div class="diskusi">
+                    <div class="profil">
+                        <img src="image\60111.jpg" alt="" style="width: 50px; border-radius: 50%;">
+                        <p>
+                            <b style="color: black;">Tora Digda K</b>
+                            <br>
+                            profil user
+                        </p>
+                    </div>
+                    <div class="pembahasan">
+                        <article>
+                            <h3>Mengapa para penganggur tidak belajar pemrograman?</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum autem modi, 
+                                aspernatur assumenda esse minima tempore, doloribus, ratione pariatur quisquam quos. 
+                                Quia quas fugit aliquid soluta similique laboriosam quod mollitia?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum autem modi, 
+                                aspernatur assumenda esse minima tempore, doloribus, ratione pariatur quisquam quos. 
+                                Quia quas fugit aliquid soluta similique laboriosam quod mollitia?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nihil exercitationem 
+                                adipisci doloribus provident, omnis ipsum minus culpa aliquid obcaecati similique fugit 
+                                perspiciatis suscipit. Iusto repellat dolorum libero quam esse reiciendis dignissimos 
+                                nostrum! Aperiam vitae, quo voluptatem voluptate neque eius tempora? Doloremque nemo nobis 
+                                repudiandae illo consequatur reprehenderit. Nesciunt, eum.
+                            </p>
+                        </article>
+                    </div>
+                </div>
             </div>
-            <article>   
-                <p>
-                <hr>
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus leo vitae purus tristique, ac condimentum 
-                odio efficitur. Pellentesque id massa eget dui pretium pulvinar. Sed convallis eget nisl eu fringilla. Aliquam 
-                vel lacinia leo. Ut tincidunt lacinia viverra. Ut faucibus neque eu dolor mollis, vel sodales leo porttitor. 
-                Integer imperdiet, neque ac condimentum ultricies, dolor eros vestibulum nulla, id consequat lorem ligula eget 
-                mi. Vestibulum bibendum leo vitae fringilla mattis. Praesent suscipit odio sit amet est bibendum vulputate. 
-                Donec et ante eget nunc blandit molestie non ac turpis. Phasellus sit amet faucibus magna, non lacinia enim. 
-                Quisque scelerisque massa justo, eget accumsan mi pulvinar quis. Quisque commodo ligula vel erat efficitur, 
-                a maximus justo pretium. Phasellus faucibus est et ultricies vulputate. Nunc dignissim pretium urna. Aliquam 
-                dignissim ultricies magna, at imperdiet nulla aliquet sed.
-                <br>
-                <br>
-                Duis nec tempor justo, non laoreet sapien. Ut aliquet vestibulum orci in posuere. Donec suscipit felis at ipsum 
-                venenatis, non luctus leo iaculis. Donec sagittis libero in purus maximus cursus. Cras interdum eget eros eu 
-                malesuada. Donec eu laoreet magna, sed volutpat mi. Mauris et est sodales, maximus neque non, pretium libero. 
-                Maecenas placerat egestas justo. Sed bibendum, arcu sed consectetur ornare, metus enim tempus est, id ullamcorper 
-                nunc ligula in sapien. Morbi at interdum neque. Duis euismod ipsum ut nisi efficitur, sed semper magna tempus. 
-                Curabitur eu enim volutpat, fermentum ligula ac, maximus sapien. Vivamus at ipsum gravida, vehicula mauris 
-                elementum, sagittis enim. Donec et lacinia justo.
-                </p>
-            </article>
-        </div>
-        <aside>
-            <h4>Berita hari ini</h4>
-            <br>
-            <hr>
-            <p><a href="">kapal feri dibajak</a></p>
-            <p><a href="">pemilu 2024</a></p>
-            <p><a href="">seorang siswa menemukan berlian</a></p>
-            <p><a href="">Lorem, ipsum dolor sit amet consectetur.</a></p>
-            <p><a href="">Lorem, ipsum dolor sit amet consectetur.</a></p>
-            <p><a href="">Lorem, ipsum dolor sit amet consectetur.</a></p>
-        </aside>
-        <div class="jawaban">
-            <div class="name">
-                <img src="image\60111.jpg" alt="">
-                <p style="padding-left: 6px;padding-top: 10px;"><b>Tora Digda K</b></p>
+            <div class="news">
+                <aside>
+                    <h1>Berita hari ini</h1>
+                    <hr>
+                    <img src="image/berita1.jpg" alt="" class="berita" style="width: 100%;">
+                    <h2><a href="https://www.cnnindonesia.com/nasional/20231017070439-617-1012101/kpu-gerak-cepat-ubah-aturan-usai-putusan-mk-syarat-capres-cawapres">KPU Gerak Cepat Ubah Aturan Usai Putusan MK Syarat Capres-Cawapres</a></h2>
+                    <img src="image/berita2.jpeg" alt="" class="berita" style="width: 100%;">
+                    <h2><a href="https://tekno.kompas.com/read/2023/10/16/08410027/qualcomm-umumkan-rencana-phk-1200-karyawan">Qualcomm Umumkan Rencana PHK 1.200 Karyawan</a></h2>
+                    <img src="image/berita3.jpg" alt="" class="berita" style="width: 100%;">
+                    <h2><a href="https://tekno.kompas.com/read/2023/09/30/11000057/5-masalah-iphone-15-yang-banyak-dikeluhkan">5 Masalah iPhone 15 yang Banyak Dikeluhkan</a></h2>
+                </aside>
             </div>
-            <article>   
-                <p>
-                <hr>
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus leo vitae purus tristique, ac condimentum 
-                odio efficitur. Pellentesque id massa eget dui pretium pulvinar. Sed convallis eget nisl eu fringilla. Aliquam 
-                vel lacinia leo. Ut tincidunt lacinia viverra. Ut faucibus neque eu dolor mollis, vel sodales leo porttitor. 
-                Integer imperdiet, neque ac condimentum ultricies, dolor eros vestibulum nulla, id consequat lorem ligula eget 
-                mi.
-                </p>
-            </article>
-        </div>
-        <div class="box-pertanyaan">
-            <h4>masih banyak pertanyaan yang harus dijawab loh</h4>
-            <br>
-            <hr>
-            <ul>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-                <li>apa itu kepala ?</li>
-            </ul>
         </div>
     </main>
         
