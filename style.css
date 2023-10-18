@@ -6,6 +6,7 @@
 body{
     background-image: url(image/background.jpg);
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -87,99 +88,8 @@ nav .list-navbar i{
     border-radius: 1%;
 }
 
-
-
-/* 
-main .pertanyaan{
-    background-color: white;
-    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: justify;
-}
-
-main .diskusi{
-    display: flex;
-    flex-direction: column;
-}
-
-main .diskusi .pembahasan{
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-}
-
-main .diskusi .pembahasan aside{
-    width: 500px;
-}
-
-main .dikusi .pembahasan article{
-    width: 600px!important;
-}
-
-main .diskusi .profil{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.profil p{
-    width: 50px;
-    display: flex;
-}
-
-main .diskusi{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-}
-
-main .diskusi aside img{
-    order: 1;
-}
-
-
-
-main .box-pertanyaan{
-    background-color: white;
-    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: justify;
-    list-style: inside  ;
-}
-
-main aside{
-    background-color: white;
-    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px; 
-    text-align: justify;
-
-}
-
-main .berita{
-    width: 500px;
-    object-fit: cover;
-}
-
 footer{
-    background-color: #ed2828;
+    background-color: #fff;
     text-align: center;
-    color: white;
-    padding: 20px;
+    padding: 10px;
 }
-
-.profil{
-    width: 50px;
-    border-radius: 50%;
-}
-
-main .name{
-    display: flex;
-}
-
-main article{
-    padding-top: 15px;
-} 
- */
