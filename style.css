@@ -5,7 +5,30 @@
 
 body{
     background-image: url(image/background.jpg);
+    margin: 0;
+}
 
+
+
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .login .profil{
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav .list-navbar li{
+    display: inline-block;
+    margin-inline: 30px;
+}
+
+nav .list-navbar i{
+    width: 10px;
 }
 
 .container{
