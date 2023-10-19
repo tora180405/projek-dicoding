@@ -32,6 +32,11 @@ nav .list-navbar i{
     width: 10px;
 }
 
+nav input:hover{
+    border-radius: 5%;
+    box-shadow: 5px 4px 8px 5px #747576;
+}
+
 .container{
     width: 1000px;
     text-align: justify;
